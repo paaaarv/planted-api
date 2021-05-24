@@ -1,7 +1,11 @@
 class CreatePlants < ActiveRecord::Migration[5.2]
   def change
     create_table :plants do |t|
-
+        t.string :name
+        t.string :sun
+        t.string :water
+        t.string :fertilize
+        t.text :notes
       t.timestamps
     end
   end
