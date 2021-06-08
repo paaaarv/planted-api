@@ -1,0 +1,26 @@
+{
+  "name": "planted-api",
+  "version": "1.0.0",
+  "description": "app to keep track of plants",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paaaarv/planted-api.git"
+  },
+  "keywords": [
+    "plant",
+    "journal",
+    "schedule",
+    "track"
+  ],
+  "author": "parvathi kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paaaarv/planted-api/issues"
+  },
+  "homepage": "https://github.com/paaaarv/planted-api#readme",
+  "dependencies": {}
+}
