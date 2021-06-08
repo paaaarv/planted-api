@@ -1,0 +1,22 @@
+
+#banner{
+    font-family: 'Sacramento', cursive;
+    font-size: 70px;
+    padding-right: 20px;
+    margin:15px;
+    display:inline-block;
+    float:left;
+}
+#nav{
+    list-style: none;
+    display:inline-block;
+    width:100%;
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+#form{
+    display:block;
+}
