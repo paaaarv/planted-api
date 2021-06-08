@@ -8,13 +8,27 @@
     </head>
 
     <body>
+        <h1> PLANTED </h1>
         <nav class="nav">
             <button> HOME </button>
             <button> INDEX </button>
             <button> SCHEDULE </button>
-            <button> ADD PLANT </button> 
+            <button href="#form"> ADD PLANT </button>
         </nav>
-        <div id="body">
+        <div id="form">
+            <form>
+                <label for="name"> name </label>
+                <input type="text" id="name"><br>
+                <label for="light"> light </label>
+                <input type="text" id="light"> </input><br>
+                <label for="water"> water </label>
+                <input type='text' id="water"></input></br>
+                <label for="fertilize">fertilize</label>
+                <input type="text" id="fertilize"></input> <br>
+                <label for="notes"> additional notes </label>
+                <input type="textarea" id="notes"></input><br>
+                <input type="submit" value="add plant"> </input>  
+            </form>
         </div>
         <script src="index.js"></script>
     </body>
